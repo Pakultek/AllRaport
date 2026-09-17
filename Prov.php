@@ -49,10 +49,10 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 // Подключение к базе данных (замените на свои данные)
-$servername = "10.10.3.41";
-$username = "vadim";
-$password = "1q2w3e4r5t6y";
-$dbname = "TUBOG";
+$servername = "local";
+$username = "user";
+$password = "pass";
+$dbname = "db_name";
 
 // Создание подключения
 $conn = new mysqli($servername, $username, $password, $dbname);
